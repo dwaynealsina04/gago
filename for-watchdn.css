@@ -1,0 +1,79 @@
+body {
+background-image: url("pics/bg.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+font-family: Times New Roman;
+}
+th {
+    background-color: rgba(128, 128, 128,0.5);
+    color: white;
+    border: 1px solid black;
+    border-color: white;
+}
+a {
+    text-decoration:none;
+    color:#000000;
+    }
+a:hover{
+    color:#707070;
+    }
+a:visited{
+    color: #000000;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.active, .btn:hover {
+    background-color: #666;
+    color: white;
+}
+ul{
+margin:0px;
+padding:4px;
+list-style: none;
+}
+
+ul li{
+float: left;
+width: 320px;
+height: 80px;
+background-color: white;
+opacity: .9;
+line-height: 80px;
+text-align: center;
+font-size: 40px;
+margin-right: 5px;
+}
+
+ul li a {
+text-decoration: none;
+color: white;
+display: block;
+}
+
+ul li a:hover {
+background-color: gray;
+}
+
+ul li ul li {
+display: none;
+}
+
+ul li:hover ul li {
+display: block;
+}

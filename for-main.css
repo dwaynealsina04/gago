@@ -1,0 +1,109 @@
+body{
+    background: url(https://wallpapertag.com/wallpaper/full/7/c/3/203463-dark-anime-background-scenery-1920x1080-full-hd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+font-family: Times New Roman;
+}
+h2{
+    color:#000000;
+}
+
+tab { padding-left: 3em; }
+a {
+    text-decoration:none;
+    color:#000000;
+    }
+a:hover{
+    color:#707070;
+    }
+a:visited{
+    color: #000000;
+}
+table{
+    border:2px;
+}
+th{
+    background-color: rgba(130, 130, 130,.9);
+    color: black;
+    border: 1px solid black;
+    border-color: white;
+
+}
+
+ul{
+margin:0px;
+padding:4px;
+list-style: none;
+}
+
+ul li{
+float: left;
+width: 320px;
+height: 80px;
+background-color: white;
+opacity: .9;
+line-height: 80px;
+text-align: center;
+font-size: 40px;
+margin-right: 5px;
+}
+
+ul li a {
+text-decoration: none;
+color: white;
+display: block;
+}
+
+ul li a:hover {
+background-color: gray;
+}
+
+ul li ul li {
+display: none;
+}
+
+ul li:hover ul li {
+display: block;
+}
+img.blur {
+    -webkit-filter: blur(3px);
+    filter: blur(3px);
+}
+body,
+.blurred-bg-container .content h1 {
+    margin: 1;
+}
+.blurred-bg-container .content {
+    background: inherit;
+    width: 95%; /* =cw */
+    height: 30%; /* =ch */
+    border-radius: 8px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%; /* =ct */
+    left: 50%; /* =cl */
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.blurred-bg-container .text {
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.blurred-bg-container .blur {
+    background: inherit;
+    height: 100vh;
+    width: 166.667%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(
+
+    filter: blur(20px);
+    z-index: -1;
+}
